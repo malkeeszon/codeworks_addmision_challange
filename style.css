@@ -1,0 +1,126 @@
+
+/* layout */
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.wrap2 {
+  text-align: center;
+}
+
+.wrap3 {
+  display: inline-block;
+  width: 94%;
+  height: 10vh;
+  margin: 1vh;
+}
+
+.main {
+  display: inline-block;
+  margin: 3.5vh;
+  margin-bottom: 0.5vh;
+  padding-bottom: 1em;
+  height: 80vh;
+  width: 92%;
+  border: none;
+  overflow-y: auto;
+  background-color: hsl(0, 0%, 95%, 0.2);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  opacity: .9;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  border: none;
+  width: 80%;
+  height: 10vh;
+  padding: 1vh;
+  background-color: hsl(0, 0%, 95%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 33%);
+  transition-duration: 0.4s;
+  border: none;
+  width: 20%;
+  font-size: 6vh;
+  font-weight: 100;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.button:hover {
+  background-color: hsl(180, 49%, 65%);
+  color: hsl(0, 0%, 95%)
+}
+
+#footer {
+  color: hsl(0, 0%, 60%);
+  font-weight: 100;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* messages styles */
+
+
+.userBubble {
+  position: relative;
+  border-radius: 5px;
+  float: left;
+  min-width: 10vh;
+  max-width: 80vh;
+  margin: 1vh;
+  overflow-wrap: break-word;
+}
+
+.userText {
+  margin: 1vh;
+  color: hsl(0, 0%, 100%);
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 2vh;
+  font-weight: 500;
+  max-width: 80vh;
+  text-align: left;
+}
+
+.userName {
+  font-size: 2vh;
+  font-weight: 900;
+  font-family: monospace;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  left: 0.3vh;
+  margin-top: 0.5vh;
+}
+
+.date {
+  font-size: 10px;
+  position: relative;
+  float: right;
+  bottom: 0.5vh;
+  right: 1vh;
+  color: hsl(0, 0%, 90%);
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
